@@ -6,6 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> test Document</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 2px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(189, 123, 123);
+        }
+    </style>
 </head>
 
 <body>
@@ -29,8 +47,86 @@
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam excepturi tempora libero ut consequatur autem alias
     tempore quia adipisci explicabo corrupti, dicta voluptatum quae sit voluptate repellendus dolores veritatis illum.
 </p>
+<ul>
+    <li>item1</li>
+    <li>item2</li>
+</ul>
+<ol type="A">
+    <li>item1</li>
+    <li>item2</li>
+</ol>
+<ol>
+
+    <li>item1</li>
+    <li>item2</li>
+
+
+</ol>
+<table>
+    <caption>
+        Personal details
+    </caption>
+    <tr>
+        <th> Firstname </th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Aaruhi</th>
+        <td>Sen</th>
+        <td>19</th>
+    </tr>
+    <tr>
+        <td>Dipson</th>
+        <td>Sen</th>
+        <td>9</th>
+    </tr>
+    <tr>
+        <td>Anuja</th>
+        <td>Sen</th>
+        <td>38</th>
+    </tr>
+    <tr>
+        <td>Smarika</th>
+        <td>Singh</th>
+        <td>19</th>
+    </tr>
+    <tr>
+        <td>Sneha</th>
+        <td>Singh</th>
+        <td>19</th>
+    </tr>
+    <tr>
+        <td>Sneha</th>
+        <td>Singh</th>
+        <td>19</th>
+    </tr>
+
+</table>
+<br />
+
+<form action="/action_page.php" method="get" id="nameform">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname">
+</form>
+
+<p>The button below is outside the form element, but still part of the form.</p>
+
+<button type="submit" form="nameform" value="Submit">Submit</button>
+
+
+
+<br>
+
 
 <a href="https: //www.facebook.com/">facebook Profile</a>
+<br>
+
+<video width="500" height="500" controls autoplay muted>
+    <source src="C:\Users\Dell\Desktop\image\ok.mp4">
+</video>
 
 
 </html>

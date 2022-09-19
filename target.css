@@ -1,0 +1,29 @@
+a[target="_self"] {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+a[target="_blank"] {
+    color: rgb(172, 36, 36);
+    text-decoration: pink;
+    background-color: pink;
+
+}
+
+a[target="_parent"] {
+    color: rgb(0, 145, 96);
+    text-decoration: none;
+    background-color: pink;
+
+}
+
+.main-div h1 {
+    background-color: rgb(196, 124, 30);
+    color: black;
+}
+
+.red {
+    color: green;
+}
